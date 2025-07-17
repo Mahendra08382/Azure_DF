@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Mahendra-DataEng"
+		},
+		"AzureBlobStorage_connectionString": {
+			"value": ""
+		},
+		"LocalServer_password": {
+			"value": ""
+		},
+		"LocalServer_properties_typeProperties_server": {
+			"value": "DELL"
+		},
+		"LocalServer_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LocalServer_properties_typeProperties_userName": {
+			"value": "DELL\\2025"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
